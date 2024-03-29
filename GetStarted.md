@@ -49,10 +49,30 @@ public class GetStarted{.....}
     }
 ```
 - Iterating over String
+- Example1:
 ```java
-for (int i = 1; i <= 10; i++) {
-    System.out.println(i);
-    }
+  String message = "Hello";
+  
+  // Using a traditional for loop
+  for (int i = 0; i < message.length(); i++) {
+      System.out.println(message.charAt(i));
+  }
+  
+  // Using an enhanced for loop
+  for (char ch : message.toCharArray()) {
+      System.out.println(ch);
+  }
+
+```
+- Example2: comparing each character of a string
+```java
+  for (int i = 0; i< name.length(); i++){
+              char ch = name.charAt(i);
+              if (ch == 'z') {
+                  countz++;
+                  
+              }
+  }
 ```
 - Iterating over Arrays
 ```java
