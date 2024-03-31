@@ -40,13 +40,31 @@ public static void main(String[] args) {
   ```java
   int[] array_num = new int[n];
   ```
-- For example1, if you want to read a string entered by the user and store it in the variable "name" along with creating an array:
 
- ```java
-  System.out.println("Enter names:");
-  String name = scanner.nextLine();
-  String[] namesArray = name.split(" "); // assuming names are space-separated
-```
+- Example1: Asking the user to enter the length of the array followed by numbers to be stored in an array.
+  Input Format
+  5 /n
+  1 10 42 13 5
+  
+  ```java
+  Scanner scanner = new Scanner(System.in);
+  int n = scanner.nextInt();
+  int[] arr1 = new int[n];
+  for (int i = 0; i < n; i++) {
+            arr1[i] = scanner.nextInt();
+        }
+  ```
+- Example2: If you want to read a string entered by the user and store it in the variable "name" along with creating an array:
+  Input Format
+  Alice Bob Kelly John
+
+   ```java
+    System.out.println("Enter names:");
+    String name = scanner.nextLine();
+    String[] namesArray = name.split(" "); // assuming names are space-separated
+  ```
+
+
 
 ### Step5: Iterating over Numbers, Strings, Arrays
 
