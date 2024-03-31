@@ -1,4 +1,4 @@
-/* You are given two arrays and a1,a2...an and b1,b2...bn. In each step, you can set if ai = ai - bi, if ai>= bi.
+/* Solution to Number of Steps : You are given two arrays and a1,a2...an and b1,b2...bn. In each step, you can set if ai = ai - bi, if ai>= bi.
 Determine the minimum number of steps that are required to make all a's equal.
 Input format:
 First line: n
