@@ -100,6 +100,15 @@ public static void main(String[] args) {
                 }
     }
   ```
+
+- Example3: Taking input in a single line as a string, converting into integer.
+  ```java
+        Scanner scanner = new Scanner(System.in);
+        String[] cost = scanner.nextLine().split(" ");
+        int cost_green = Integer.parseInt(cost[0]);
+        int cost_purple = Integer.parseInt(cost[1]);
+  ```
+  
 - Iterating over Arrays
 ```java
 for (int i = 1; i <= 10; i++) {
@@ -107,5 +116,17 @@ for (int i = 1; i <= 10; i++) {
     }
 ```
 
-
+- Example1: Taking input in single line as a string, converting it to integer and storing it in a 2D array, num is length of array.
+```java
+        int num = Integer.parseInt(scanner.nextLine());
+        int [][] arr2 = new int[num][2];
+        for (int i =0; i<num; i++ ) {
+            String[] scoreStr = scanner.nextLine().split(" ");
+            arr2[i][0] = Integer.parseInt(scoreStr[0]);
+            arr2[i][1] = Integer.parseInt(scoreStr[1]);
+        }
+            for (int i = 0; i < num; i++) {
+                System.out.println("Output: " + arr2[i][0] + " " + arr2[i][1]);
+            }
+```
 
