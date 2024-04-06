@@ -107,8 +107,18 @@ public static void main(String[] args) {
         int cost_green = Integer.parseInt(cost[0]);
         int cost_purple = Integer.parseInt(cost[1]);
   ```
-- Example4: Taking numbers as input and looping the digits, by storing it in string array
-  
+- Example4: Taking numbers as input and looping the digits, by storing it in string , converting to char array
+```java
+
+        Scanner scanner = new Scanner(System.in);
+        String Input = scanner.nextLine();
+        char[] Characters = Input.toCharArray();
+        for (int i = 0; i < Characters.length; i++){
+            char c = Charachers[i];
+            System.out.println(c);
+        }
+```
+
 #### Iterating over Arrays
 ```java
 for (int i = 1; i <= 10; i++) {
