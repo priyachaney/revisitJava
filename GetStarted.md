@@ -67,14 +67,13 @@ public static void main(String[] args) {
 
 
 ### Step5: Iterating over Numbers, Strings, Arrays
-
-- Iterating over number
+#### Iterating over number
 ```java
   for (int i = 1; i <= 10; i++) {
     System.out.println(i);
     }
 ```
-- Iterating over String
+#### Iterating over String
 - Example1:
 ```java
   String message = "Hello";
@@ -108,8 +107,9 @@ public static void main(String[] args) {
         int cost_green = Integer.parseInt(cost[0]);
         int cost_purple = Integer.parseInt(cost[1]);
   ```
+- Example4: Taking numbers as input and looping the digits, by storing it in string array
   
-- Iterating over Arrays
+#### Iterating over Arrays
 ```java
 for (int i = 1; i <= 10; i++) {
     System.out.println(i);
