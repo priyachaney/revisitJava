@@ -114,8 +114,12 @@ public static void main(String[] args) {
         String Input = scanner.nextLine();
         char[] Characters = Input.toCharArray();
         for (int i = 0; i < Characters.length; i++){
-            char c = Charachers[i];
+            char c = Characters[i];
             System.out.println(c);
+
+        //For converting to numeric
+        // Note: "Character" is a wrapper class that provides utility methods for working with characters.
+         int numericValue = Character.getNumericValue(c);
         }
 ```
 
