@@ -18,9 +18,6 @@ class Dog extends Animal {
 
 ### 2. **`implements`**
 
-
-# `implements`
-
 **Purpose**: Indicates that a class is implementing an interface (i.e., providing concrete implementations for the methods defined in the interface).
 
 **Usage**: Used with classes to implement interfaces.
@@ -42,7 +39,6 @@ class Dog implements AnimalBehavior {
 ### 3. **`abstract`**
 
 ```md
-# `abstract`
 
 **Purpose**: Used to declare a class as abstract, meaning it cannot be instantiated and is meant to be subclassed. It can also be used to declare abstract methods within a class that must be implemented by subclasses.
 
@@ -65,7 +61,6 @@ class Dog extends Animal {
 ### 4. **`interface`**
 
 ```md
-# `interface`
 
 **Purpose**: Used to declare an interface, a reference type that can contain abstract methods, default methods, static methods, and final fields. Classes use the `implements` keyword to implement interfaces.
 
@@ -88,7 +83,6 @@ class Dog implements AnimalBehavior {
 ### 5. **`super`**
 
 ```md
-# `super`
 
 **Purpose**: Refers to the superclass (parent class) of the current object. It's used to access superclass methods, constructors, and variables.
 
@@ -114,7 +108,6 @@ class Dog extends Animal {
 ### 6. **`this`**
 
 ```md
-# `this`
 
 **Purpose**: Refers to the current instance of the class. It's used to access the class's own fields, methods, and constructors.
 
@@ -139,7 +132,7 @@ class Dog {
 ### 7. **`final`**
 
 ```md
-# `final`
+
 
 **Purpose**: Used to declare constants, prevent method overriding, or prevent inheritance of a class.
 
@@ -162,7 +155,7 @@ final class Animal {
 ### 8. **`static`**
 
 ```md
-# `static`
+
 
 **Purpose**: Used to declare class-level variables and methods, meaning they belong to the class rather than any instance of the class.
 
@@ -183,7 +176,7 @@ class Animal {
 ### 9. **`native`**
 
 ```md
-# `native`
+
 
 **Purpose**: Indicates that a method is implemented in native code (e.g., C or C++) rather than in Java.
 
@@ -200,7 +193,7 @@ public class NativeExample {
 ### 10. **`synchronized`**
 
 ```md
-# `synchronized`
+
 
 **Purpose**: Used to control the access of multiple threads to a block/method of code. It ensures that only one thread can execute the synchronized block/method at a time.
 
@@ -217,7 +210,7 @@ public synchronized void increment() {
 ### 11. **`volatile`**
 
 ```md
-# `volatile`
+
 
 **Purpose**: Indicates that a variable's value will be modified by different threads. Ensures that the value of the variable is always read from the main memory, not from the thread's local cache.
 
@@ -232,7 +225,7 @@ private volatile boolean isRunning = true;
 ### 12. **`transient`**
 
 ```md
-# `transient`
+
 
 **Purpose**: Prevents serialization of a field in an object. During serialization, the field marked as `transient` will not be serialized.
 
