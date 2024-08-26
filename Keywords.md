@@ -1,4 +1,4 @@
-# `extends`
+### 1. **`extends`**
 
 **Purpose**: Indicates that a class is inheriting from another class (i.e., it is a child class or subclass).
 
